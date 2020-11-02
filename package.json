@@ -3,7 +3,7 @@
     "description": "Sokkuri eslint config",
     "version": "1.0.2",
     "license": "Apache-2.0",
-    "main": "dist/index.js",
+    "main": "index.js",
     "repository": {
         "type": "git",
         "url": "https://gitlab.com/sokkuri/eslint-config"
