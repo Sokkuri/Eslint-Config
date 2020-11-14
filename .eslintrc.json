@@ -12,8 +12,8 @@
             "double"
         ],
         "spaced-comment": 2,
-        "no-unused-vars": 1,
-        "semi": [
+        "no-unused-vars": 2,
+        "@typescript-eslint/semi": [
             "error",
             "always"
         ]
