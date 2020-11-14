@@ -9,8 +9,8 @@
         "url": "https://gitlab.com/sokkuri/eslint-config"
     },
     "dependencies": {
-        "@typescript-eslint/eslint-plugin": "^4.6.0",
-        "@typescript-eslint/parser": "^4.6.0",
+        "@typescript-eslint/eslint-plugin": "^4.7.0",
+        "@typescript-eslint/parser": "^4.7.0",
         "vue-eslint-parser": "^7.1.1"
     },
     "peerDependencies": {
