@@ -6,7 +6,7 @@
     "main": "index.js",
     "repository": {
         "type": "git",
-        "url": "https://gitlab.com/sokkuri/eslint-config"
+        "url": "https://github.com/Sokkuri/Eslint-Config"
     },
     "dependencies": {
         "@typescript-eslint/eslint-plugin": "^4.7.0",
