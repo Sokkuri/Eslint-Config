@@ -1,11 +1,4 @@
 {
-    "settings": {
-        "import/resolver": {
-            "node": {
-                "extensions": [".js", ".ts", ".vue"]
-            }
-        }
-    },
     "parser": "vue-eslint-parser",
     "parserOptions": {
         "parser": "@typescript-eslint/parser"
@@ -13,26 +6,35 @@
     "plugins": [
         "@typescript-eslint"
     ],
-    "rules": {
-        "quotes": [
-            2,
-            "double"
-        ],
-        "spaced-comment": 2,
-        "@typescript-eslint/no-unused-vars": [
-            "error"
-        ],
-        "@typescript-eslint/semi": [
-            "error",
-            "always"
-        ],
-        "object-curly-spacing": [
-            "error",
-            "always"
-        ],
-        "array-bracket-spacing": [
-            "error",
-            "always"
-        ]
-    }
+    "overrides": [
+        {
+            "files": ["*.{js,ts,vue}"],
+            "rules": {
+                "quotes": [
+                    2,
+                    "double"
+                ],
+                "spaced-comment": 2,
+                "@typescript-eslint/no-unused-vars": [
+                    "error"
+                ],
+                "@typescript-eslint/semi": [
+                    "error",
+                    "always"
+                ],
+                "object-curly-spacing": [
+                    "error",
+                    "always"
+                ],
+                "array-bracket-spacing": [
+                    "error",
+                    "always"
+                ],
+                "import/extensions": ["error", "ignorePackages", {
+                    ".js": "never",
+                    ".ts": "never"
+                }]
+            }
+        }
+    ]
 }
