@@ -24,14 +24,3 @@ Create the `.eslintrc.json` file in the root of the project and add this conten
 **Install plugin**
 
 Install the [ESlint plugin](https://github.com/microsoft/vscode-eslint) in vscode.
-
-**Vue support**
-
-To support `.vue` files add the following content to the `settings.json` in the `.vscode` folder:
-```json
-{
-    "eslint.validate": [
-        "vue"
-    ]
-}
-```

@@ -1,7 +1,7 @@
 {
     "name": "@sokkuri/eslint-config",
     "description": "Sokkuri eslint config",
-    "version": "2.2.0",
+    "version": "3.0.0",
     "license": "Apache-2.0",
     "main": "index.js",
     "repository": {
@@ -9,9 +9,8 @@
         "url": "https://github.com/Sokkuri/Eslint-Config"
     },
     "dependencies": {
-        "@typescript-eslint/eslint-plugin": "^4.7.0",
-        "@typescript-eslint/parser": "^4.7.0",
-        "vue-eslint-parser": "^7.1.1"
+        "@typescript-eslint/eslint-plugin": "^4.28.1",
+        "@typescript-eslint/parser": "^4.28.1"
     },
     "peerDependencies": {
         "eslint": "*",
